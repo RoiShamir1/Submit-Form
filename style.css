@@ -1,0 +1,51 @@
+.main-headline {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  text-decoration: underline;
+  /* display: grid;
+  place-items: center; */
+  /* position: relative;
+  top: 50%;
+  left: 37%;
+  right: 50%;
+  bottom: 50%; */
+}
+
+form {
+  width: 250px;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+input[type="submit"] {
+  background-color: blue;
+  color: white;
+  padding: 0.5em 1em;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: darkblue;
+}
